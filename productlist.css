@@ -1,0 +1,154 @@
+body {
+    padding-top: 130px;
+    padding-left: 130px;
+}
+
+
+.items1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+}
+
+.divallshoes {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    margin-top: 53px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 42%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    align-items: center;
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.allshoes {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.007em;
+    font-family: Barlow;
+    font-size: 50px;
+}
+
+.Searchdiv {
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.searchinput {
+    margin-right: 10px;
+    border-radius: 13px;
+    border-style: solid;
+    background-color: rgb(255, 242, 242);
+    padding-left: 20px;
+    outline: none;
+}
+
+.searchicondiv {
+    background-color: rgb(255, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.searchicon {
+    height: 20px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.filtersection {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 160px;
+    padding-top: 130px;
+    overflow: auto;
+    border-right-width: 2px;
+    border-right-color: grey;
+    border-style: solid;
+    border-bottom: none;
+}
+
+.checkbo {
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.checkbo:hover {
+    border-color: black;
+}
+
+.manfilter {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 25px;
+    width: 100px;
+}
+
+.pricefilter {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 25px;
+    width: 100px;
+
+}
+
+.sizefilter {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    margin-left: 30px;
+    column-gap: 5px;
+    row-gap: 5px;
+    width: 80%;
+}
+
+.size {
+    background: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
+    border: none;
+    border-style: solid;
+    border-width: 0.6px;
+    border-radius: 2px;
+    height: 30px;
+    width: 50px;
+}
+
+.size:hover {
+    box-shadow: rgb(17, 17, 17) 0px 0px 0px 1px inset;
+}
+
+
+.size,
+.pricefilter,
+.catagoury,
+.headsize,
+.iconhead {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.007em;
+    font-family: Barlow;
+    font-size: 15px;
+}
